@@ -1,0 +1,719 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Levee//Mount Vernon Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Levee - Mount Vernon Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:30de03b31432@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon High School Fall Choir Concert
+DTSTART;TZID=America/New_York:20261006T190000
+LOCATION:Mount Vernon High School Theater\\, Mount Vernon\\, OH
+URL:https://mvhs.mt-vernon.k12.oh.us/our-school/high-school-events
+DESCRIPTION:Source: Mount Vernon City Schools
+END:VEVENT
+BEGIN:VEVENT
+UID:3053f1de1ea7@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Gay Street United Methodist Rummage & Bake Sale
+DTSTART;TZID=America/New_York:20261007T120000
+LOCATION:Gay Street United Methodist Church\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:140601a3351e@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:The Maplehurst Murder: Mount Vernon’s Most Infamous Unsolved Crime
+DTSTART;VALUE=DATE:20261007
+LOCATION:875 Harcourt Road\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events?page=3
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:eb244b3f6989@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Gay Street United Methodist Rummage & Bake Sale
+DTSTART;TZID=America/New_York:20261008T090000
+LOCATION:Gay Street United Methodist Church\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:640a8b14b68a@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Graham Nash — Live on Tour 2026
+DTSTART;TZID=America/New_York:20261008T183000
+LOCATION:Knox Memorial Theater\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:3bde931eea41@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Fall Yard Sale Trail
+DTSTART;VALUE=DATE:20261010
+LOCATION:Mount Vernon\\, Mount Vernon\\, OH
+URL:https://www.mtvernonoh.gov/calendar.aspx
+DESCRIPTION:Source: City of Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:383ae7e096e1@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:AFJROTC Annual Raider Competition
+DTSTART;TZID=America/New_York:20261010T083000
+LOCATION:Ariel-Foundation Park\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:1149b3b32aa3@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon Farmers Market
+DTSTART;TZID=America/New_York:20261010T090000
+LOCATION:Mount Vernon Public Square\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/mount-vernon-farmers-market
+DESCRIPTION:Source: Visit Knox County / Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:077ccd6380a6@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Sip & Stitch
+DTSTART;TZID=America/New_York:20261010T100000
+LOCATION:Happy Bean\\, 221 S. Main St.\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/sip-stitch
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:c2ebfb396400@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:MVNU Instrumental Ensembles Concert
+DTSTART;TZID=America/New_York:20261010T130000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/mvnu-instrumental-ensembles-to-perform-5/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:bc9d7704d30b@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Red Carpet Rendezvous
+DTSTART;TZID=America/New_York:20261011T143000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.mvac.org/red-carpet-rendezvous
+DESCRIPTION:Source: Experience Mount Vernon / MVAC
+END:VEVENT
+BEGIN:VEVENT
+UID:7b07e3b291cd@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:6th Annual Johnny Appleseed Fall Festival
+DTSTART;TZID=America/New_York:20261011T150000
+LOCATION:Schnormeier Event Center\\, Ariel-Foundation Park\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/johnny-appleseed-festival
+DESCRIPTION:Source: Experience Mount Vernon / Visit Knox
+END:VEVENT
+BEGIN:VEVENT
+UID:d854aa165855@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Friends Sunday Community Cookout
+DTSTART;TZID=America/New_York:20261011T111500
+LOCATION:First Presbyterian Church\\, 106 N. Gay St.\\, Mount Vernon\\, OH
+URL:https://www.mtvpres.org/calendar/
+DESCRIPTION:Source: First Presbyterian Church
+END:VEVENT
+BEGIN:VEVENT
+UID:3d47daf8b916@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Spooky Soaps — Teen Program
+DTSTART;TZID=America/New_York:20261012T150000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/teens.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:03c1f832775d@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Sewing with Lisa
+DTSTART;TZID=America/New_York:20261014T100000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:8cbcd492e13c@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Body Snatching and Grave Robbing in the 19th Century
+DTSTART;TZID=America/New_York:20261014T183000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f95c4d09e486@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon High School Orchestra Concert
+DTSTART;TZID=America/New_York:20261014T190000
+LOCATION:Mount Vernon High School Theater\\, Mount Vernon\\, OH
+URL:https://mvhs.mt-vernon.k12.oh.us/our-school/high-school-events
+DESCRIPTION:Source: Mount Vernon City Schools
+END:VEVENT
+BEGIN:VEVENT
+UID:c42dfccb852e@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Knox County Conversations: Ohio Food & Farms
+DTSTART;TZID=America/New_York:20261015T120000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:e26c03d6ff97@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Fall into Fun: The Woodward Hometown Series
+DTSTART;TZID=America/New_York:20261016T190000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events/fall-into-fun-the-woodward-hometown-series
+DESCRIPTION:Source: Experience Mount Vernon / MVAC
+END:VEVENT
+BEGIN:VEVENT
+UID:bda2162594be@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Fall Clean Up Day
+DTSTART;TZID=America/New_York:20261017T080000
+LOCATION:Ariel-Foundation Park\\, Mount Vernon\\, OH
+URL:https://www.mtvernonoh.gov/calendar.aspx
+DESCRIPTION:Source: City of Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:b95e0f46cfc6@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon Farmers Market
+DTSTART;TZID=America/New_York:20261017T090000
+LOCATION:Mount Vernon Public Square\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/mount-vernon-farmers-market
+DESCRIPTION:Source: Visit Knox County / Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:ebb7b762e889@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Sip & Stitch
+DTSTART;TZID=America/New_York:20261017T100000
+LOCATION:Happy Bean\\, 221 S. Main St.\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/sip-stitch
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:4c830bc5fa92@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Fall Fest ’26 — 4th Annual Community Fall Festival
+DTSTART;TZID=America/New_York:20261018T160000
+LOCATION:Church at Chapel Hill\\, 7530 Johnstown Road\\, Mount Vernon\\, OH
+URL:https://wqioradio.com/event/fall-fest-26-4th-annual-community-fall-festival/
+DESCRIPTION:Source: WQIO / Church at Chapel Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:18e114102599@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Haunted Figurines and Lost Art — Teen Program
+DTSTART;TZID=America/New_York:20261019T150000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/teens.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:dd394223c9b3@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:SongFarmers Hometown Gathering
+DTSTART;TZID=America/New_York:20261020T183000
+LOCATION:Ariel-Foundation Park Clockhouse\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:6e4aaba23693@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Lego Club: Halloween Fun
+DTSTART;TZID=America/New_York:20261021T163000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/children.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:60b7efc8475f@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Oak Street Foundation Fundraising Concert
+DTSTART;TZID=America/New_York:20261022T190000
+LOCATION:Mulberry Church\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:2c80671cfca5@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon Yellow Jackets vs. Watkins Memorial
+DTSTART;TZID=America/New_York:20261023T190000
+LOCATION:Mount Vernon High School\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/mount-vernon-yellow-jackets-2026-football
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:b0ef267be177@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon Farmers Market
+DTSTART;TZID=America/New_York:20261024T090000
+LOCATION:Mount Vernon Public Square\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/mount-vernon-farmers-market
+DESCRIPTION:Source: Visit Knox County / Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:47558ef4e028@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Sip & Stitch
+DTSTART;TZID=America/New_York:20261024T100000
+LOCATION:Happy Bean\\, 221 S. Main St.\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/sip-stitch
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:9b9fee9d5c44@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Celebration of The Woodlands — Knox County
+DTSTART;TZID=America/New_York:20261024T103000
+LOCATION:1740 Vernonview Drive\\, Mount Vernon\\, OH
+URL:https://www.eventbrite.com/d/oh--mount-vernon/events/
+DESCRIPTION:Source: Eventbrite
+END:VEVENT
+BEGIN:VEVENT
+UID:09074cee5fd9@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:OMEA Honors Choir Concert
+DTSTART;TZID=America/New_York:20261024T153000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:98e6f6d099e0@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Christ the King Community Church Craft Show
+DTSTART;TZID=America/New_York:20261024T092900
+LOCATION:Christ the King Community Church\\, Mount Vernon\\, OH
+URL:https://wqioradio.com/events/month/2026-10/
+DESCRIPTION:Source: WQIO
+END:VEVENT
+BEGIN:VEVENT
+UID:29d448a1667e@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Nonfiction Book Discussion: All the Living and the Dead
+DTSTART;VALUE=DATE:20261026
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events?page=6
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:f285d6fe9a96@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Teen Video Game Night
+DTSTART;TZID=America/New_York:20261026T150000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/teens.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:d1056a683008@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:4th Annual Trunk-or-Treat
+DTSTART;TZID=America/New_York:20261026T180000
+LOCATION:Sponsler/Donley Ford\\, 1455 Coshocton Ave.\\, Mount Vernon\\, OH
+URL:https://business.knoxchamber.com/events/details/trunk-or-treat-11959?calendarMonth=2026-10-01
+DESCRIPTION:Source: Knox County Chamber
+END:VEVENT
+BEGIN:VEVENT
+UID:97eaa7a7e876@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Change the Story: Gabby Petito’s Untold Story
+DTSTART;TZID=America/New_York:20261028T160000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon / Visit Knox
+END:VEVENT
+BEGIN:VEVENT
+UID:5ba4c6b6dd3b@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Movie Night at the Library: House on Haunted Hill (1958)
+DTSTART;VALUE=DATE:20261028
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events?page=6
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:7a304666c0e5@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Radio Recall
+DTSTART;TZID=America/New_York:20261028T193000
+LOCATION:Knox Memorial Theater\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon / Visit Knox
+END:VEVENT
+BEGIN:VEVENT
+UID:6c78a0469888@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Witches Night Out
+DTSTART;TZID=America/New_York:20261029T160000
+LOCATION:Downtown Mount Vernon\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:3d920b9923be@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Halloween Hullabaloo
+DTSTART;TZID=America/New_York:20261029T160000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/children.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:f17c5f3fc366@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon High School Senior Citizen Fall Luncheon
+DTSTART;TZID=America/New_York:20261029T120000
+LOCATION:Mount Vernon High School Theater\\, Mount Vernon\\, OH
+URL:https://mvhs.mt-vernon.k12.oh.us/our-school/high-school-events
+DESCRIPTION:Source: Mount Vernon City Schools
+END:VEVENT
+BEGIN:VEVENT
+UID:7ce22daaee81@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Mount Vernon Farmers Market
+DTSTART;TZID=America/New_York:20261031T090000
+LOCATION:Mount Vernon Public Square\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/mount-vernon-farmers-market
+DESCRIPTION:Source: Visit Knox County / Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:0930a5bf6389@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Sip & Stitch
+DTSTART;TZID=America/New_York:20261031T100000
+LOCATION:Happy Bean\\, 221 S. Main St.\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/sip-stitch
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:a93e0991ae1c@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Free Family Movie Night: Hocus Pocus
+DTSTART;TZID=America/New_York:20261031T140000
+LOCATION:Schnormeier Event Center\\, Ariel-Foundation Park\\, Mount Vernon\\, OH
+URL:https://www.mtvernonoh.gov/calendar.aspx
+DESCRIPTION:Source: City / Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:3e356b4a6d02@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:City of Mount Vernon Trick or Treat
+DTSTART;TZID=America/New_York:20261031T173000
+LOCATION:Mount Vernon — citywide\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:aa979544c7f7@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Knox County Symphony
+DTSTART;TZID=America/New_York:20261031T193000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:357aff7b1011@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Very Merry Tea Party Fundraiser
+DTSTART;TZID=America/New_York:20261101T140000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.eventbrite.com/b/oh--mount-vernon/charity-and-causes/
+DESCRIPTION:Source: Eventbrite
+END:VEVENT
+BEGIN:VEVENT
+UID:e7fc7c641e38@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Anime Con! — Session 1
+DTSTART;TZID=America/New_York:20261102T150000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/teens.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:63a9d8b530ba@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Tragedy Into Triumph 2026 — Night 1
+DTSTART;TZID=America/New_York:20261102T190000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:9551f79251b5@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Tragedy Into Triumph 2026 — Night 2
+DTSTART;TZID=America/New_York:20261103T190000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:9504de11b8e6@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Tragedy Into Triumph 2026 — Night 3
+DTSTART;TZID=America/New_York:20261104T190000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:dc73472bda01@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Explore Conference
+DTSTART;VALUE=DATE:20261106
+LOCATION:Mount Vernon Nazarene University\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/explore/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:a8dccba7c83b@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Songwriters and Circles
+DTSTART;TZID=America/New_York:20261106T190000
+LOCATION:The Woodward Opera House Black Box\\, Mount Vernon\\, OH
+URL:https://www.thewoodward.org/
+DESCRIPTION:Source: The Woodward Opera House
+END:VEVENT
+BEGIN:VEVENT
+UID:679ed0a644f7@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Anime Con! — Session 2
+DTSTART;TZID=America/New_York:20261109T150000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/teens.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:9c59fe271927@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Adult Open Craft Day
+DTSTART;TZID=America/New_York:20261110T100000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:1a9b2d9cbf0c@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:The Woodward Exchange
+DTSTART;TZID=America/New_York:20261110T190000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.thewoodward.org/
+DESCRIPTION:Source: The Woodward Opera House
+END:VEVENT
+BEGIN:VEVENT
+UID:042b160b0de9@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:2026 Habitat Homecoming
+DTSTART;TZID=America/New_York:20261112T170000
+LOCATION:Glenn A. Gallagher Centre\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/2026-habitat-homecoming
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:8b45c89dd93d@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Nellie’s Open Mic Night
+DTSTART;TZID=America/New_York:20261112T180000
+LOCATION:Happy Street Brü Werks\\, Mount Vernon\\, OH
+URL:https://www.nelliesix.com/event-calendar
+DESCRIPTION:Source: Nellie Six Productions
+END:VEVENT
+BEGIN:VEVENT
+UID:a445d3bee4e7@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Comedy Night in Support of AMVETS
+DTSTART;TZID=America/New_York:20261113T190000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.thewoodward.org/
+DESCRIPTION:Source: The Woodward Opera House
+END:VEVENT
+BEGIN:VEVENT
+UID:b26fff10d68d@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:MVNU Homecoming Concert
+DTSTART;TZID=America/New_York:20261114T130000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:9274eca35b15@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Knox County Suicide Prevention Coalition 5K/10K
+DTSTART;TZID=America/New_York:20261115T170000
+LOCATION:Ariel-Foundation Park\\, Kiwanis Pavilion\\, Mount Vernon\\, OH
+URL:https://www.racenearme.com/race/knox-county-suicide-prevention-coalition-5k-10k-94412
+DESCRIPTION:Source: Knox County Suicide Prevention Coalition
+END:VEVENT
+BEGIN:VEVENT
+UID:841d1b3c06ba@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Minecraft Cooking Night at the Library
+DTSTART;TZID=America/New_York:20261116T150000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/teens.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:c971dc503ce5@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:SongFarmers Hometown Gathering
+DTSTART;TZID=America/New_York:20261117T183000
+LOCATION:Ariel-Foundation Park Clockhouse\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:7b007547593b@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor
+DTSTART;TZID=America/New_York:20261117T110000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:514956f8bb03@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Woodward Open Mic Night
+DTSTART;TZID=America/New_York:20261118T183000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/woodward-open-mic-night-nov
+DESCRIPTION:Source: Visit Knox County
+END:VEVENT
+BEGIN:VEVENT
+UID:acdbd9244905@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Lego Club: Pick Your Challenge
+DTSTART;TZID=America/New_York:20261118T163000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/children.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:23d71e7fe79c@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Movie Night: Megan Leavey
+DTSTART;TZID=America/New_York:20261118T183000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:0f32e11d1070@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Knox County Conversations: Ohio Serves
+DTSTART;TZID=America/New_York:20261119T120000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:bd7942978792@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:The Patsy Show: A Tribute to the Legend
+DTSTART;TZID=America/New_York:20261120T193000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:f3dfe3e51cd0@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Student Messiah
+DTSTART;TZID=America/New_York:20261120T102000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/cmcal-calendar/calendar-new/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:b8200176daa0@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:The Patsy Show: A Tribute to the Legend
+DTSTART;TZID=America/New_York:20261121T140000
+LOCATION:The Woodward Opera House\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/events
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:48df88614e57@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:58th Annual Handel’s Messiah
+DTSTART;TZID=America/New_York:20261122T190000
+LOCATION:R.R. Hodges Chapel/Auditorium\\, MVNU\\, Mount Vernon\\, OH
+URL:https://mvnu.edu/mvnu-to-present-58th-annual-handels-messiah/
+DESCRIPTION:Source: MVNU
+END:VEVENT
+BEGIN:VEVENT
+UID:197c577c6cdd@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Nonfiction Book Discussion: Grunt by Mary Roach
+DTSTART;TZID=America/New_York:20261123T183000
+LOCATION:Public Library of Mount Vernon & Knox County\\, Mount Vernon\\, OH
+URL:https://www.knox.net/adults.html
+DESCRIPTION:Source: Public Library
+END:VEVENT
+BEGIN:VEVENT
+UID:94c61e4c2cff@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:White Christmas: The Musical
+DTSTART;TZID=America/New_York:20261127T193000
+LOCATION:Knox Memorial Theater\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/white-christmas-the-musical
+DESCRIPTION:Source: Visit Knox County / MVAC
+END:VEVENT
+BEGIN:VEVENT
+UID:d8b080347966@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:White Christmas: The Musical
+DTSTART;TZID=America/New_York:20261128T193000
+LOCATION:Knox Memorial Theater\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/white-christmas-the-musical
+DESCRIPTION:Source: Visit Knox County / MVAC
+END:VEVENT
+BEGIN:VEVENT
+UID:00687f6db0a6@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Shop Small Saturday
+DTSTART;VALUE=DATE:20261128
+LOCATION:Downtown Mount Vernon\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/winter-in-downtown
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+BEGIN:VEVENT
+UID:c49a51c6381d@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:White Christmas: The Musical
+DTSTART;TZID=America/New_York:20261129T140000
+LOCATION:Knox Memorial Theater\\, Mount Vernon\\, OH
+URL:https://visitknoxohio.org/events/white-christmas-the-musical
+DESCRIPTION:Source: Visit Knox County / MVAC
+END:VEVENT
+BEGIN:VEVENT
+UID:fdf6f3168cae@thelevee-events
+DTSTAMP:20261006T004335Z
+SUMMARY:Lighting of Public Square
+DTSTART;TZID=America/New_York:20261130T170000
+LOCATION:Mount Vernon Public Square\\, Mount Vernon\\, OH
+URL:https://www.experiencemv.org/winter-in-downtown
+DESCRIPTION:Source: Experience Mount Vernon
+END:VEVENT
+END:VCALENDAR
