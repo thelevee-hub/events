@@ -1,44 +1,26 @@
 # The Levee Event Review
 
-Generated: 2026-10-06 01:14 UTC
+Generated: 2026-10-07 10:06 UTC
 
-- New candidates this run: **10**
+- New candidates this run: **4**
 - Possible existing/changed events: **0**
 - Total candidates awaiting review: **10**
 - Source errors: **2**
 
 ## New candidates
 
-- **Dec 18 — Saturday Aug 8, 2026 Friday Dec 18, 2026**
+- **Oct 10 — Saturday Oct 10, 2026**
   - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/art-exhibit-chromatic-dreamscape-12037
-- **Oct 5 — Monday Oct 5, 2026**
+  - https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11951
+- **Oct 8 — Thursday Oct 8, 2026**
   - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/october-resilient-leaders-retreat-the-signature-leadership-development-program-with-alex-sheen-12091
-- **Oct 5 — Monday Oct 5, 2026**
+  - https://business.knoxchamber.com/events/details/reiki-guided-meditations-and-aromatherapy-with-sarah-spangler-10-08-2026-11987
+- **Oct 8 — Thursday Oct 8, 2026**
   - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/nutrition-basics-with-connections-fitness-1st-monday-of-the-month-10-05-2026-11789
-- **Oct 6 — Tuesday Oct 6, 2026**
+  - https://business.knoxchamber.com/events/details/alzheimer-s-association-caregiver-support-group-10-08-2026-11455
+- **Oct 8 — Thursday Oct 8, 2026**
   - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/new-hope-celebrating-50-years-12098
-- **Oct 6 — Tuesday Oct 6, 2026**
-  - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/coffee-cup-with-jerry-scott-12150
-- **Oct 6 — Tuesday Oct 6, 2026 Wednesday Oct 7, 2026**
-  - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/october-resilient-leaders-retreat-the-signature-leadership-development-program-with-alex-sheen-12092
-- **Oct 7 — Wednesday Oct 7, 2026**
-  - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/nutrition-basics-with-connections-fitness-1st-wednesday-of-the-month-10-07-2026-11641
-- **Oct 7 — Wednesday Oct 7, 2026**
-  - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/knox-young-professionals-boardmanship-lunch-learn-12087
-- **Oct 7 — Wednesday Oct 7, 2026**
-  - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/gay-street-united-methodist-rummage-bake-sale-12144
-- **Oct 7 — Wednesday Oct 7, 2026 Thursday Oct 8, 2026**
-  - Source: Knox County Chamber
-  - https://business.knoxchamber.com/events/details/gay-street-united-women-in-faith-rummage-bake-sale-12132
+  - https://business.knoxchamber.com/events/details/graham-nash-live-on-tour-2026-12081
 
 ## Possible existing events / changes
 
