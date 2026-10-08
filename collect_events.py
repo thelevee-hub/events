@@ -1,138 +1,212 @@
 #!/usr/bin/env python3
-"""
-The Levee Phase 2 event discovery collector.
+"""The Levee Events discovery, Phase 2.1.
 
-Safety rule: this script NEVER edits events.json.
-It writes candidates.json and review-report.md only.
-
-Source adapters are intentionally conservative. A candidate must contain:
-title, date text, Mount Vernon evidence, and a source URL.
+Reads events.json; writes only candidates.json and review-report.md.
+No candidate is ever published automatically. Python standard library only.
 """
 from __future__ import annotations
-import json, re, hashlib, urllib.request
-from pathlib import Path
+
+import hashlib
+import json
+import re
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone
-from html.parser import HTMLParser
 from difflib import SequenceMatcher
+from html.parser import HTMLParser
+from pathlib import Path
+from urllib.parse import urljoin, urlparse, unquote
 
-ROOT=Path(__file__).parent
-MASTER=ROOT/"events.json"
-CANDIDATES=ROOT/"candidates.json"
-REPORT=ROOT/"review-report.md"
+ROOT = Path(__file__).resolve().parent
+MASTER = ROOT / "events.json"
+CANDIDATES = ROOT / "candidates.json"
+REPORT = ROOT / "review-report.md"
 
-SOURCES=[
- {"name":"Experience Mount Vernon","url":"https://www.experiencemv.org/events"},
- {"name":"Visit Knox County","url":"https://visitknoxohio.org/events"},
- {"name":"City of Mount Vernon","url":"https://www.mtvernonoh.gov/calendar.aspx"},
- {"name":"Public Library","url":"https://www.knox.net/events.html"},
- {"name":"MVNU","url":"https://mvnu.edu/cmcal-calendar/calendar-new/"},
- {"name":"Mount Vernon City Schools","url":"https://www.mt-vernon.k12.oh.us/our-district/district-calendar"},
- {"name":"The Woodward Opera House","url":"https://www.thewoodward.org/"},
- {"name":"Knox County Chamber","url":"https://business.knoxchamber.com/events/"},
- {"name":"Paragraphs Bookstore","url":"https://paragraphsbookstore.com/upcoming-events"},
- {"name":"Nellie Six Productions","url":"https://www.nelliesix.com/event-calendar"},
+SOURCES = [
+    {"name": "Experience Mount Vernon", "url": "https://www.experiencemv.org/events"},
+    {"name": "Visit Knox County", "url": "https://visitknoxohio.org/events"},
+    {"name": "City of Mount Vernon", "url": "https://www.mtvernonoh.gov/calendar.aspx"},
+    {"name": "Public Library", "url": "https://www.knox.net/events.html"},
+    {"name": "MVNU", "url": "https://mvnu.edu/cmcal-calendar/calendar-new/"},
+    {"name": "Mount Vernon City Schools", "url": "https://www.mt-vernon.k12.oh.us/our-district/district-calendar"},
+    {"name": "The Woodward Opera House", "url": "https://www.thewoodward.org/"},
+    {"name": "Knox County Chamber", "url": "https://business.knoxchamber.com/events/"},
+    {"name": "Paragraphs Bookstore", "url": "https://paragraphsbookstore.com/upcoming-events"},
+    {"name": "Nellie Six Productions", "url": "https://www.nelliesix.com/event-calendar"},
 ]
+MONTHS = {m: i for i, m in enumerate(("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"), 1)}
+DATE_RX = re.compile(r"\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+(\d{1,2})(?:,?\s+(20\d{2}))?\b", re.I)
+ISO_RX = re.compile(r"\b(20\d{2})-(\d{2})-(\d{2})\b")
+CITY_RX = re.compile(r"\bmount\s+vernon\b", re.I)
+OUTSIDE_RX = re.compile(r"\b(gambier|fredericktown|centerburg|danville|howard|utica|martinsburg)\b", re.I)
 
 class LinkParser(HTMLParser):
- def __init__(self):
-  super().__init__(); self.links=[]; self._href=None; self._txt=[]
- def handle_starttag(self,tag,attrs):
-  if tag=="a":
-   self._href=dict(attrs).get("href"); self._txt=[]
- def handle_data(self,data):
-  if self._href is not None:self._txt.append(data)
- def handle_endtag(self,tag):
-  if tag=="a" and self._href is not None:
-   txt=" ".join("".join(self._txt).split())
-   if txt:self.links.append((txt,self._href))
-   self._href=None; self._txt=[]
+    def __init__(self):
+        super().__init__()
+        self.links = []
+        self.active = None
+        self.depth = 0
+    def handle_starttag(self, tag, attrs):
+        if tag == "a" and self.active is None:
+            self.active = {"href": dict(attrs).get("href", ""), "text": []}
+            self.depth = 1
+        elif self.active is not None:
+            self.depth += 1
+    def handle_data(self, data):
+        if self.active is not None:
+            self.active["text"].append(data)
+    def handle_endtag(self, tag):
+        if self.active is not None:
+            self.depth -= 1
+            if self.depth <= 0 or tag == "a":
+                self.links.append((" ".join(" ".join(self.active["text"]).split()), self.active["href"]))
+                self.active = None
+                self.depth = 0
 
 def fetch(url):
- req=urllib.request.Request(url,headers={"User-Agent":"TheLeveeEvents/1.0 (+community calendar)"})
- with urllib.request.urlopen(req,timeout=25) as r:
-  return r.read().decode("utf-8","replace")
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; TheLeveeEvents/2.1; community event index)", "Accept": "text/html"})
+    with urllib.request.urlopen(request, timeout=25) as response:
+        return response.read(2_500_000).decode("utf-8", "replace")
 
-def norm(s): return re.sub(r"[^a-z0-9]+"," ",s.lower()).strip()
-def similarity(a,b): return SequenceMatcher(None,norm(a),norm(b)).ratio()
+def normalize(text):
+    text = str(text or "").lower().replace("&", " and ")
+    return re.sub(r"[^a-z0-9]+", " ", text).strip()
+
+def title_from_url(url):
+    """Chamber detail URLs contain the real title in their slug."""
+    path = unquote(urlparse(url).path).rstrip("/")
+    if "/events/details/" not in path:
+        return ""
+    slug = path.split("/events/details/", 1)[1].split("/", 1)[0]
+    slug = re.sub(r"-\d{4,6}$", "", slug)  # Chamber event record ID
+    slug = re.sub(r"-(?:\d{2}-\d{2}-20\d{2}|20\d{2}-\d{2}-\d{2})$", "", slug)
+    return slug.replace("-", " ").strip().title()
+
+def extract_date(text, url):
+    match = DATE_RX.search(text)
+    if match:
+        month = MONTHS[match.group(1)[:3].lower()]
+        year = int(match.group(3) or datetime.now(timezone.utc).year)
+        day = int(match.group(2))
+        try:
+            return f"{year:04d}-{month:02d}-{day:02d}"
+        except ValueError:
+            return ""
+    match = ISO_RX.search(url)
+    if match:
+        return match.group(0)
+    # Chamber recurring event URLs often carry an MM-DD-YYYY occurrence suffix.
+    match = re.search(r"(?:^|/|-)(\d{2})-(\d{2})-(20\d{2})(?:-|$)", url)
+    if match:
+        return f"{match.group(3)}-{match.group(1)}-{match.group(2)}"
+    return ""
 
 def discover(source):
- """Conservative generic discovery. Site-specific adapters can replace this later."""
- try: page=fetch(source["url"])
- except Exception as exc:
-  return [],f"{type(exc).__name__}: {exc}"
- p=LinkParser(); p.feed(page)
- found=[]
- date_rx=re.compile(r"\b(?:Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2}\b",re.I)
- for text,href in p.links:
-  # Generic adapter only promotes links that visibly include a date.
-  dm=date_rx.search(text)
-  if not dm: continue
-  if href.startswith("/"):
-   from urllib.parse import urljoin
-   href=urljoin(source["url"],href)
-  if not href.startswith("http"): continue
-  found.append({
-   "id":hashlib.sha1((source["name"]+"|"+text+"|"+href).encode()).hexdigest()[:14],
-   "title_raw":text,
-   "date_raw":dm.group(0),
-   "source":source["name"],
-   "source_url":href,
-   "status":"needs-review",
-   "discovered_at":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-   "notes":"Generic discovery; verify Mount Vernon, Ohio location, date, time and public access before approval."
-  })
- return found,None
+    try:
+        page = fetch(source["url"])
+        parser = LinkParser()
+        parser.feed(page)
+    except Exception as exc:
+        return [], f"{type(exc).__name__}: {exc}"
+    found = []
+    chamber = source["name"] == "Knox County Chamber"
+    for label, href in parser.links:
+        url = urljoin(source["url"], href)
+        if urlparse(url).scheme not in ("http", "https"):
+            continue
+        date = extract_date(label, url)
+        if not date:
+            continue
+        if date < datetime.now(timezone.utc).strftime("%Y-%m-%d"):
+            continue
+        title = title_from_url(url) if chamber else re.sub(DATE_RX, "", label).strip(" -—|,:")
+        if not title or normalize(title) in ("details", "view event", "read more"):
+            continue
+        # Avoid non-event links that merely happen to mention a date.
+        if chamber and "/events/details/" not in urlparse(url).path:
+            continue
+        identity = hashlib.sha1((source["name"] + "|" + url + "|" + date).encode()).hexdigest()[:14]
+        found.append({
+            "id": identity, "title_raw": title, "date_raw": date,
+            "source": source["name"], "source_url": url,
+            "status": "needs-review", "discovered_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "location_status": "unverified", "notes": "Confirm exact Mount Vernon venue, time, public access, and date on the event detail page before approval."
+        })
+    return found, None
 
-master=json.loads(MASTER.read_text(encoding="utf-8")) if MASTER.exists() else []
-old=json.loads(CANDIDATES.read_text(encoding="utf-8")) if CANDIDATES.exists() else []
-old_by_id={x["id"]:x for x in old if "id" in x}
+def compare(candidate, master):
+    best_score, best = 0.0, None
+    for event in master:
+        score = SequenceMatcher(None, normalize(candidate["title_raw"]), normalize(event.get("title", ""))).ratio()
+        event_date = event.get("date_display", "")
+        date_match = False
+        match = DATE_RX.search(event_date)
+        if match:
+            date_match = int(match.group(2)) == int(candidate["date_raw"][-2:]) and MONTHS[match.group(1)[:3].lower()] == int(candidate["date_raw"][5:7])
+        if date_match:
+            score += 0.14
+        if score > best_score:
+            best_score, best = score, event
+    return round(min(best_score, 1.0), 3), best
 
-candidates=[]; errors=[]
-for source in SOURCES:
- items,err=discover(source)
- if err: errors.append((source["name"],err)); continue
- for item in items:
-  # Never treat a weak title match as an automatic publish decision.
-  best=max((similarity(item["title_raw"],e.get("title","")) for e in master),default=0)
-  item["possible_existing_match"]=round(best,3)
-  if best>=0.88:item["classification"]="possible-existing-or-change"
-  else:item["classification"]="new-candidate"
-  if item["id"] in old_by_id:
-   item["first_seen"]=old_by_id[item["id"]].get("first_seen",old_by_id[item["id"]].get("discovered_at"))
-  else:item["first_seen"]=item["discovered_at"]
-  candidates.append(item)
+def main():
+    master = json.loads(MASTER.read_text(encoding="utf-8")) if MASTER.exists() else []
+    old = json.loads(CANDIDATES.read_text(encoding="utf-8")) if CANDIDATES.exists() else []
+    old_map = {(x.get("source"), x.get("source_url"), x.get("date_raw")): x for x in old}
+    errors, candidates = [], []
+    for source in SOURCES:
+        found, error = discover(source)
+        if error:
+            errors.append((source["name"], error))
+            continue
+        for item in found:
+            score, matched = compare(item, master)
+            item["possible_existing_match"] = score
+            if score >= 0.90:
+                item["classification"] = "likely-duplicate"
+            elif score >= 0.70:
+                item["classification"] = "possible-existing-or-change"
+            else:
+                item["classification"] = "new-needs-location-verification"
+            if matched and score >= 0.70:
+                item["possible_existing_title"] = matched.get("title", "")
+            previous = old_map.get((item["source"], item["source_url"], item["date_raw"]), {})
+            item["first_seen"] = previous.get("first_seen", previous.get("discovered_at", item["discovered_at"]))
+            if previous.get("review_decision") in ("approved", "rejected", "deferred"):
+                item["review_decision"] = previous["review_decision"]
+            candidates.append(item)
+    unique = {(x["source_url"], x["date_raw"]): x for x in candidates}
+    candidates = sorted(unique.values(), key=lambda x: (x["date_raw"], x["title_raw"].lower()))
+    CANDIDATES.write_text(json.dumps(candidates, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    groups = [
+        ("New candidates — verify location and details", "new-needs-location-verification"),
+        ("Possible existing events or changes", "possible-existing-or-change"),
+        ("Likely duplicates — do not republish", "likely-duplicate"),
+    ]
+    lines = ["# The Levee Event Review — Phase 2.1", "", f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}", "",
+             f"- Total candidates: **{len(candidates)}**", f"- New leads requiring verification: **{sum(x['classification'] == groups[0][1] for x in candidates)}**",
+             f"- Possible changes: **{sum(x['classification'] == groups[1][1] for x in candidates)}**",
+             f"- Likely duplicates: **{sum(x['classification'] == groups[2][1] for x in candidates)}**", f"- Source errors: **{len(errors)}**", ""]
+    for heading, classification in groups:
+        lines += [f"## {heading}", ""]
+        entries = [x for x in candidates if x["classification"] == classification]
+        for x in entries[:150]:
+            lines += [f"- **{x['date_raw']} — {x['title_raw']}**", f"  - Source: {x['source']}", f"  - Event: {x['source_url']}"]
+            if x.get("possible_existing_title"):
+                lines.append(f"  - Possible match: {x['possible_existing_title']} (score {x['possible_existing_match']})")
+            if classification == groups[0][1]:
+                lines.append("  - **Location not yet verified; do not publish without checking the source.**")
+        if not entries:
+            lines.append("- None.")
+        lines.append("")
+    lines += ["## Source errors", ""]
+    for name, error in errors:
+        lines.append(f"- **{name}:** {error}")
+    if not errors:
+        lines.append("- None.")
+    lines += ["", "---", "This is a review queue only. The collector never edits events.json or publishes events."]
+    REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"Phase 2.1: {len(candidates)} candidates, {len(errors)} source errors; review report written.")
 
-# deterministic de-dupe
-dedup={c["id"]:c for c in candidates}
-candidates=sorted(dedup.values(),key=lambda x:(x["source"],x["date_raw"],x["title_raw"]))
-CANDIDATES.write_text(json.dumps(candidates,indent=2,ensure_ascii=False),encoding="utf-8")
-
-new_ids={c["id"] for c in candidates}-{x.get("id") for x in old}
-new=[c for c in candidates if c["id"] in new_ids]
-changed=[c for c in candidates if c["classification"]=="possible-existing-or-change"]
-
-lines=[
- "# The Levee Event Review",
- "",
- f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
- "",
- f"- New candidates this run: **{len(new)}**",
- f"- Possible existing/changed events: **{len(changed)}**",
- f"- Total candidates awaiting review: **{len(candidates)}**",
- f"- Source errors: **{len(errors)}**",
- "",
- "## New candidates",""
-]
-for c in new[:100]:
- lines += [f"- **{c['date_raw']} — {c['title_raw']}**",f"  - Source: {c['source']}",f"  - {c['source_url']}"]
-if not new: lines.append("- None.")
-lines += ["","## Possible existing events / changes",""]
-for c in changed[:100]:
- lines += [f"- **{c['date_raw']} — {c['title_raw']}** — match score {c['possible_existing_match']}"]
-if not changed: lines.append("- None.")
-lines += ["","## Source errors",""]
-for name,err in errors: lines.append(f"- **{name}:** {err}")
-if not errors: lines.append("- None.")
-lines += ["","---","Nothing in this report is published automatically. Review candidates against the original source before adding them to events.json."]
-REPORT.write_text("\n".join(lines)+"\n",encoding="utf-8")
-print(f"Review queue written: {len(candidates)} candidates; {len(new)} new; {len(errors)} source errors.")
+if __name__ == "__main__":
+    main()
