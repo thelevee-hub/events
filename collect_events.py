@@ -11,11 +11,12 @@ import json
 import re
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta, date
 from difflib import SequenceMatcher
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, unquote
+from urllib.parse import urljoin, urlparse, unquote, quote
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 MASTER = ROOT / "events.json"
@@ -134,6 +135,141 @@ def discover(source):
         })
     return found, None
 
+
+LIBRARY_ICS = "https://calendar.google.com/calendar/ical/plmvkcohio%40gmail.com/public/basic.ics"
+LOCAL_TZ = ZoneInfo("America/New_York")
+
+def ics_unescape(value):
+    return value.replace("\\n", "\n").replace("\\N", "\n").replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\")
+
+def parse_ics_events(raw):
+    # RFC 5545 line unfolding; retain field parameters (TZID, VALUE=DATE).
+    lines = []
+    for line in raw.replace("\r\n", "\n").split("\n"):
+        if line.startswith((" ", "\t")) and lines:
+            lines[-1] += line[1:]
+        else:
+            lines.append(line)
+    events, current = [], None
+    for line in lines:
+        if line == "BEGIN:VEVENT":
+            current = {}
+        elif line == "END:VEVENT":
+            if current is not None:
+                events.append(current)
+            current = None
+        elif current is not None and ":" in line:
+            key, value = line.split(":", 1)
+            base = key.split(";", 1)[0]
+            if base in ("EXDATE", "RDATE"):
+                current.setdefault(base, []).append((key, value))
+            else:
+                current[base] = (key, ics_unescape(value))
+    return events
+
+def event_datetime(field):
+    if not field:
+        return None
+    key, value = field
+    try:
+        if "VALUE=DATE" in key or len(value) == 8:
+            return datetime.strptime(value[:8], "%Y%m%d").replace(tzinfo=LOCAL_TZ)
+        if value.endswith("Z"):
+            return datetime.strptime(value, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc).astimezone(LOCAL_TZ)
+        tz = LOCAL_TZ  # Library feed uses America/New_York for local timestamps.
+        return datetime.strptime(value[:15], "%Y%m%dT%H%M%S").replace(tzinfo=tz)
+    except ValueError:
+        return None
+
+def occurrences(event, today, horizon):
+    start = event_datetime(event.get("DTSTART"))
+    if start is None:
+        return []
+    rule = event.get("RRULE", ("", ""))[1]
+    if not rule:
+        return [start] if today <= start.date() <= horizon else []
+    parts = dict(x.split("=", 1) for x in rule.split(";") if "=" in x)
+    freq = parts.get("FREQ")
+    if freq not in ("DAILY", "WEEKLY"):
+        return []  # Unsupported recurrence is not guessed.
+    interval = max(1, int(parts.get("INTERVAL", "1")))
+    count = int(parts.get("COUNT", "999999"))
+    until = event_datetime(("", parts["UNTIL"])) if "UNTIL" in parts else None
+    excluded = set()
+    for key, value in event.get("EXDATE", []):
+        for item in value.split(","):
+            parsed = event_datetime((key, item))
+            if parsed:
+                excluded.add(parsed.strftime("%Y-%m-%dT%H:%M"))
+    days = {"MO":0,"TU":1,"WE":2,"TH":3,"FR":4,"SA":5,"SU":6}
+    weekdays = {days[x] for x in parts.get("BYDAY", "").split(",") if x in days}
+    if not weekdays:
+        weekdays = {start.weekday()}
+    results = []
+    cursor = start
+    emitted = 0
+    max_days = min((horizon - start.date()).days + 1, 3660)
+    for i in range(max(0, max_days)):
+        cursor = start + timedelta(days=i)
+        if until and cursor.astimezone(timezone.utc) > until.astimezone(timezone.utc):
+            break
+        if freq == "DAILY":
+            eligible = i % interval == 0
+        else:
+            eligible = (i // 7) % interval == 0 and cursor.weekday() in weekdays
+        if not eligible:
+            continue
+        emitted += 1
+        if emitted > count:
+            break
+        if today <= cursor.date() <= horizon and cursor.strftime("%Y-%m-%dT%H:%M") not in excluded:
+            results.append(cursor)
+    return results
+
+def library_location_status(location):
+    value = normalize(location)
+    if any(x in value for x in ("gambier", "fredericktown", "danville", "centerburg", "howard")):
+        return "outside-mount-vernon"
+    if any(x in value for x in ("online", "virtual", "zoom", "facebook", "youtube")):
+        return "online-only"
+    if "201 n mulberry" in value or "mount vernon" in value or "mt vernon" in value:
+        return "mount-vernon-indicated"
+    return "unverified"
+
+def discover_library_ics(today=None, horizon_days=90, raw=None):
+    today = today or datetime.now(LOCAL_TZ).date()
+    horizon = today + timedelta(days=horizon_days)
+    try:
+        content = raw if raw is not None else fetch(LIBRARY_ICS)
+        events = parse_ics_events(content)
+    except Exception as exc:
+        return [], f"{type(exc).__name__}: {exc}"
+    found = []
+    for event in events:
+        if event.get("STATUS", ("", ""))[1].upper() == "CANCELLED":
+            continue
+        title = event.get("SUMMARY", ("", ""))[1].strip()
+        location = event.get("LOCATION", ("", ""))[1].strip()
+        if not title or re.search(r"\b(closed|board meeting|radio show|podcast)\b", title, re.I):
+            continue
+        status = library_location_status(location)
+        if status in ("outside-mount-vernon", "online-only"):
+            continue
+        for when in occurrences(event, today, horizon):
+            uid = event.get("UID", ("", ""))[1]
+            event_url = "https://www.knox.net/calendar.html"
+            identity = hashlib.sha1(("Public Library Adults|" + uid + "|" + when.isoformat()).encode()).hexdigest()[:14]
+            found.append({
+                "id": identity, "title_raw": title, "date_raw": when.strftime("%Y-%m-%d"),
+                "time_raw": "All day" if "VALUE=DATE" in event.get("DTSTART", ("", ""))[0] else when.strftime("%-I:%M %p"),
+                "venue_raw": location, "source": "Public Library Adults Calendar",
+                "source_url": event_url, "calendar_uid": uid,
+                "status": "needs-review", "discovered_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "location_status": status,
+                "notes": "Confirm date, time, public access, registration, and Mount Vernon location before approval."
+            })
+    return found, None
+
 def compare(candidate, master):
     best_score, best = 0.0, None
     for event in master:
@@ -154,8 +290,8 @@ def main():
     old = json.loads(CANDIDATES.read_text(encoding="utf-8")) if CANDIDATES.exists() else []
     old_map = {(x.get("source"), x.get("source_url"), x.get("date_raw")): x for x in old}
     errors, candidates = [], []
-    for source in SOURCES:
-        found, error = discover(source)
+    for source in SOURCES + [{"name": "Public Library Adults ICS", "url": LIBRARY_ICS}]:
+        found, error = discover_library_ics() if source["name"] == "Public Library Adults ICS" else discover(source)
         if error:
             errors.append((source["name"], error))
             continue
@@ -183,7 +319,7 @@ def main():
         ("Possible existing events or changes", "possible-existing-or-change"),
         ("Likely duplicates — do not republish", "likely-duplicate"),
     ]
-    lines = ["# The Levee Event Review — Phase 2.1", "", f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}", "",
+    lines = ["# The Levee Event Review — Phase 2.2", "", f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}", "",
              f"- Total candidates: **{len(candidates)}**", f"- New leads requiring verification: **{sum(x['classification'] == groups[0][1] for x in candidates)}**",
              f"- Possible changes: **{sum(x['classification'] == groups[1][1] for x in candidates)}**",
              f"- Likely duplicates: **{sum(x['classification'] == groups[2][1] for x in candidates)}**", f"- Source errors: **{len(errors)}**", ""]
@@ -194,6 +330,10 @@ def main():
             lines += [f"- **{x['date_raw']} — {x['title_raw']}**", f"  - Source: {x['source']}", f"  - Event: {x['source_url']}"]
             if x.get("possible_existing_title"):
                 lines.append(f"  - Possible match: {x['possible_existing_title']} (score {x['possible_existing_match']})")
+            if x.get("venue_raw"):
+                lines.append(f"  - Venue: {x['venue_raw']}")
+            if x.get("time_raw"):
+                lines.append(f"  - Time: {x['time_raw']}")
             if classification == groups[0][1]:
                 lines.append("  - **Location not yet verified; do not publish without checking the source.**")
         if not entries:
