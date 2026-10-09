@@ -8,6 +8,15 @@ on:
         description: "Candidate ID to review"
         required: true
         type: string
+      decision:
+        description: "Editorial decision"
+        required: true
+        type: choice
+        options:
+          - hold
+          - approve
+          - reject
+        default: hold
 
 permissions:
   contents: read
@@ -15,13 +24,15 @@ permissions:
 jobs:
   review:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Find candidate
+      - name: Review candidate
         env:
           CANDIDATE_ID: ${{ inputs.candidate_id }}
+          DECISION: ${{ inputs.decision }}
         run: |
           python3 - <<'PY'
           import json
@@ -31,6 +42,8 @@ jobs:
               candidates = json.load(f)
 
           candidate_id = os.environ["CANDIDATE_ID"]
+          decision = os.environ["DECISION"]
+
           match = next(
               (c for c in candidates
                if str(c.get("id")) == candidate_id),
@@ -40,6 +53,23 @@ jobs:
           if match is None:
               raise SystemExit("Candidate not found.")
 
+          if decision not in ("approve", "reject", "hold"):
+              raise SystemExit("Invalid decision.")
+
+          print("THE LEVEE EVENTS - EDITORIAL REVIEW")
+          print("----------------------------------")
           print(json.dumps(match, indent=2))
-          print("Review only. Nothing published.")
+          print()
+          print(f"Decision: {decision.upper()}")
+
+          if decision == "approve":
+              print("Approval selected.")
+              print("Publication is not enabled yet.")
+          elif decision == "reject":
+              print("Rejection selected.")
+              print("Candidate has not been deleted.")
+          else:
+              print("Candidate held for further verification.")
+
+          print("No repository files were changed.")
           PY
