@@ -1,11 +1,11 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-09 00:12 UTC
+Generated: 2026-10-09 00:39 UTC
 
-- Total candidates: **52**
-- New leads requiring verification: **46**
-- Possible changes: **0**
-- Likely duplicates: **6**
+- Total candidates: **72**
+- New leads requiring verification: **57**
+- Possible changes: **1**
+- Likely duplicates: **14**
 - Source errors: **1**
 
 ## New candidates — verify location and details
@@ -31,6 +31,18 @@ Generated: 2026-10-09 00:12 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-14 — Write your Novel Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-15 — All Write! Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-15 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -104,6 +116,12 @@ Generated: 2026-10-09 00:12 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-28 — Write Your Novel Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-29 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -139,6 +157,12 @@ Generated: 2026-10-09 00:12 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-05 — All Write! Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-05 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -206,6 +230,24 @@ Generated: 2026-10-09 00:12 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-18 — Write Your Novel Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-19 — All Write! Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-19 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: All PLMVKC Branches
+  - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-20 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -213,6 +255,12 @@ Generated: 2026-10-09 00:12 UTC
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: All PLMVKC Branches
+  - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-23 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
@@ -229,6 +277,11 @@ Generated: 2026-10-09 00:12 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-25 — Library System to Close Early at 4 p.m.**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Time: 4:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-27 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -260,6 +313,18 @@ Generated: 2026-10-09 00:12 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-02 — Write Your Novel Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-03 — All Write! Community-Led Writing Workshop**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-03 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -286,7 +351,12 @@ Generated: 2026-10-09 00:12 UTC
 
 ## Possible existing events or changes
 
-- None.
+- **2026-10-14 — Body Snatching & Grave Robbing in the 19th Century with Doug Hulett of Northcoast Narrative**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Body Snatching and Grave Robbing in the 19th Century (score 0.857)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:30 PM
 
 ## Likely duplicates — do not republish
 
@@ -306,6 +376,54 @@ Generated: 2026-10-09 00:12 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/red-carpet-rendezvous-12145
   - Possible match: Red Carpet Rendezvous (score 1.0)
+- **2026-10-14 — Sewing with Lisa**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Sewing with Lisa (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 10:00 AM
+- **2026-10-15 — Knox County Conversation- Ohio Food & Farms**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Knox County Conversations: Ohio Food & Farms (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 12:00 PM
+- **2026-10-26 — Nonfiction Book Discussion - All the Living and the Dead**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Nonfiction Book Discussion: All the Living and the Dead (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:30 PM
+- **2026-10-28 — Movie Night: House on Haunted Hill**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Movie Night at the Library: House on Haunted Hill (1958) (score 0.907)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:30 PM
+- **2026-11-10 — Adult Open Craft Day**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Adult Open Craft Day (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 10:00 AM
+- **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 11:00 AM
+- **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
+- **2026-11-18 — Movie Night at the Library- Megan Leavey**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Movie Night: Megan Leavey (score 0.902)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:30 PM
 - **2026-11-19 — Knox County Conversations November Editon- Ohio Serves**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
