@@ -19,17 +19,22 @@ on:
         default: hold
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: editorial-decisions
+  cancel-in-progress: false
 
 jobs:
   review:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Review candidate
+      - name: Record editorial decision
         env:
           CANDIDATE_ID: ${{ inputs.candidate_id }}
           DECISION: ${{ inputs.decision }}
@@ -37,12 +42,18 @@ jobs:
           python3 - <<'PY'
           import json
           import os
+          from datetime import datetime, timezone
+          from pathlib import Path
 
-          with open("candidates.json", encoding="utf-8") as f:
-              candidates = json.load(f)
+          candidates = json.loads(
+              Path("candidates.json").read_text(encoding="utf-8")
+          )
 
           candidate_id = os.environ["CANDIDATE_ID"]
           decision = os.environ["DECISION"]
+
+          if decision not in ("approve", "reject", "hold"):
+              raise SystemExit("Invalid decision.")
 
           match = next(
               (c for c in candidates
@@ -53,23 +64,36 @@ jobs:
           if match is None:
               raise SystemExit("Candidate not found.")
 
-          if decision not in ("approve", "reject", "hold"):
-              raise SystemExit("Invalid decision.")
+          path = Path("review-decisions.json")
+          decisions = json.loads(path.read_text(encoding="utf-8"))
 
-          print("THE LEVEE EVENTS - EDITORIAL REVIEW")
-          print("----------------------------------")
-          print(json.dumps(match, indent=2))
-          print()
-          print(f"Decision: {decision.upper()}")
+          decisions[candidate_id] = {
+              "decision": decision,
+              "title": match.get("title_raw", ""),
+              "date": match.get("date_raw", ""),
+              "recorded_at": datetime.now(
+                  timezone.utc
+              ).isoformat()
+          }
 
-          if decision == "approve":
-              print("Approval selected.")
-              print("Publication is not enabled yet.")
-          elif decision == "reject":
-              print("Rejection selected.")
-              print("Candidate has not been deleted.")
-          else:
-              print("Candidate held for further verification.")
+          path.write_text(
+              json.dumps(decisions, indent=2) + "\n",
+              encoding="utf-8"
+          )
 
-          print("No repository files were changed.")
+          print(f"Candidate: {candidate_id}")
+          print(f"Decision recorded: {decision.upper()}")
+          print("Publication remains disabled.")
           PY
+
+      - name: Commit decision
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add review-decisions.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Record editorial decision"
+            git push origin HEAD:main
+          fi
