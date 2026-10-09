@@ -288,6 +288,13 @@ def compare(candidate, master):
 def main():
     master = json.loads(MASTER.read_text(encoding="utf-8")) if MASTER.exists() else []
     old = json.loads(CANDIDATES.read_text(encoding="utf-8")) if CANDIDATES.exists() else []
+    
+    decisions_path = ROOT / "review-decisions.json"
+    decisions = (
+        json.loads(decisions_path.read_text(encoding="utf-8"))
+        if decisions_path.exists() else {}
+    )
+
     old_map = {(x.get("source"), x.get("source_url"), x.get("date_raw")): x for x in old}
     errors, candidates = [], []
     for source in SOURCES + [{"name": "Public Library Adults ICS", "url": LIBRARY_ICS}]:
@@ -310,6 +317,10 @@ def main():
             item["first_seen"] = previous.get("first_seen", previous.get("discovered_at", item["discovered_at"]))
             if previous.get("review_decision") in ("approved", "rejected", "deferred"):
                 item["review_decision"] = previous["review_decision"]
+                    saved = decisions.get(item["id"])
+            if saved:
+                item["review_decision"] = saved["decision"]
+                item["review_recorded_at"] = saved.get("recorded_at", "")
             candidates.append(item)
     unique = {(x["source_url"], x["date_raw"]): x for x in candidates}
     candidates = sorted(unique.values(), key=lambda x: (x["date_raw"], x["title_raw"].lower()))
