@@ -1,0 +1,45 @@
+
+name: Approve Event
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_id:
+        description: "Candidate ID to review"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Find candidate
+        env:
+          CANDIDATE_ID: ${{ inputs.candidate_id }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+
+          with open("candidates.json", encoding="utf-8") as f:
+              candidates = json.load(f)
+
+          candidate_id = os.environ["CANDIDATE_ID"]
+          match = next(
+              (c for c in candidates
+               if str(c.get("id")) == candidate_id),
+              None
+          )
+
+          if match is None:
+              raise SystemExit("Candidate not found.")
+
+          print(json.dumps(match, indent=2))
+          print("Review only. Nothing published.")
+          PY
