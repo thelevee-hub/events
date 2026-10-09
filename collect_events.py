@@ -351,6 +351,26 @@ def main():
         if not entries:
             lines.append("- None.")
         lines.append("")
+        
+    lines += ["## Held events — awaiting further review", ""]
+    held = [
+        x for x in candidates
+        if x.get("review_decision") == "hold"
+    ]
+    for x in held:
+        lines += [
+            f"- **{x['date_raw']} — {x['title_raw']}**",
+            f"  - Candidate ID: `{x['id']}`",
+            f"  - Source: {x['source']}",
+            f"  - Event: {x['source_url']}",
+        ]
+        if x.get("venue_raw"):
+            lines.append(f"  - Venue: {x['venue_raw']}")
+        lines.append("")
+    if not held:
+        lines.append("- None.")
+    lines.append("")
+
     lines += ["## Source errors", ""]
     for name, error in errors:
         lines.append(f"- **{name}:** {error}")
