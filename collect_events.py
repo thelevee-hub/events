@@ -322,7 +322,7 @@ def main():
                 item["review_decision"] = saved["decision"]
                 item["review_recorded_at"] = saved.get("recorded_at", "")
             candidates.append(item)
-    unique = {(x["source_url"], x["date_raw"]): x for x in candidates}
+    unique = {x["id"]: x for x in candidates}
     candidates = sorted(unique.values(), key=lambda x: (x["date_raw"], x["title_raw"].lower()))
     CANDIDATES.write_text(json.dumps(candidates, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     groups = [
