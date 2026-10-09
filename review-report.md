@@ -1,9 +1,9 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-09 01:01 UTC
+Generated: 2026-10-09 10:06 UTC
 
-- Total candidates: **72**
-- New leads requiring verification: **57**
+- Total candidates: **76**
+- New leads requiring verification: **61**
 - Possible changes: **1**
 - Likely duplicates: **14**
 - Source errors: **1**
@@ -14,11 +14,27 @@ Generated: 2026-10-09 01:01 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/family-nature-quest-bats-at-the-bfec-12110
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-12 — Yoga In The Garden Vinyasa With Jamee**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/yoga-in-the-garden-vinyasa-with-jamee-10-12-2026-12135
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-13 — Business Boost**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/business-boost-11618
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-13 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-13 — Mount Vernon Lions Club Meeting**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/mount-vernon-lions-club-meeting-10-13-2026-8347
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-13 — Ribbon Cutting At Heart Of Ohio Wellness Center**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-at-heart-of-ohio-wellness-center-12133
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-14 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
