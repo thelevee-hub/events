@@ -1,6 +1,6 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-09 00:39 UTC
+Generated: 2026-10-09 01:01 UTC
 
 - Total candidates: **72**
 - New leads requiring verification: **57**
@@ -13,12 +13,6 @@ Generated: 2026-10-09 00:39 UTC
 - **2026-10-10 — Family Nature Quest Bats At The Bfec**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/family-nature-quest-bats-at-the-bfec-12110
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-12 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-13 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -411,13 +405,13 @@ Generated: 2026-10-09 00:39 UTC
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
 - **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
 - **2026-11-18 — Movie Night at the Library- Megan Leavey**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -436,6 +430,15 @@ Generated: 2026-10-09 00:39 UTC
   - Possible match: Nonfiction Book Discussion: Grunt by Mary Roach (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:30 PM
+
+## Held events — awaiting further review
+
+- **2026-10-12 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
+  - Candidate ID: `4207ab017e4044`
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: All PLMVKC Branches
+
 
 ## Source errors
 
