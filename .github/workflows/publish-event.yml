@@ -1,0 +1,83 @@
+name: Publish Event
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_id:
+        description: "Approved candidate ID"
+        required: true
+        type: string
+      event_title:
+        description: "Verified event title"
+        required: true
+        type: string
+      event_date:
+        description: "Verified date (YYYY-MM-DD; Oct-Dec 2026 only)"
+        required: true
+        type: string
+      event_time:
+        description: "Verified display time (example: 7 p.m.)"
+        required: true
+        type: string
+      event_venue:
+        description: "Verified Mount Vernon venue and address"
+        required: true
+        type: string
+      event_url:
+        description: "Verified event details URL"
+        required: true
+        type: string
+      verified_location:
+        description: "I confirmed the event physically takes place in Mount Vernon"
+        required: true
+        type: choice
+        options: ["no", "yes"]
+        default: "no"
+      verified_details:
+        description: "I checked the organizer's date, time, venue, and public access"
+        required: true
+        type: choice
+        options: ["no", "yes"]
+        default: "no"
+      confirm:
+        description: "FINAL CONFIRMATION: type PUBLISH to update the public calendar"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: editorial-decisions
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify and publish approved candidate
+        env:
+          CANDIDATE_ID: ${{ inputs.candidate_id }}
+          EVENT_TITLE: ${{ inputs.event_title }}
+          EVENT_DATE: ${{ inputs.event_date }}
+          EVENT_TIME: ${{ inputs.event_time }}
+          EVENT_VENUE: ${{ inputs.event_venue }}
+          EVENT_URL: ${{ inputs.event_url }}
+          VERIFIED_LOCATION: ${{ inputs.verified_location }}
+          VERIFIED_DETAILS: ${{ inputs.verified_details }}
+          CONFIRM: ${{ inputs.confirm }}
+        run: python3 publish_event.py
+      - name: Rebuild website and downloadable calendar
+        run: python3 generate.py
+      - name: Commit publication
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add events.json index.html calendar.ics
+          git diff --cached --quiet && { echo "Nothing changed"; exit 0; }
+          git commit -m "Publish verified event"
+          git push origin HEAD:main
