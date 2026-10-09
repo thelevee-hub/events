@@ -317,11 +317,12 @@ def main():
             item["first_seen"] = previous.get("first_seen", previous.get("discovered_at", item["discovered_at"]))
             if previous.get("review_decision") in ("approved", "rejected", "deferred"):
                 item["review_decision"] = previous["review_decision"]
-                    saved = decisions.get(item["id"])
+            saved = decisions.get(item["id"])
             if saved:
                 item["review_decision"] = saved["decision"]
                 item["review_recorded_at"] = saved.get("recorded_at", "")
             candidates.append(item)
+
     unique = {x["id"]: x for x in candidates}
     candidates = sorted(unique.values(), key=lambda x: (x["date_raw"], x["title_raw"].lower()))
     CANDIDATES.write_text(json.dumps(candidates, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
