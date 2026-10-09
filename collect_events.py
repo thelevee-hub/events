@@ -337,25 +337,6 @@ def main():
              f"- Likely duplicates: **{sum(x['classification'] == groups[2][1] for x in candidates)}**", f"- Source errors: **{len(errors)}**", ""]
     for heading, classification in groups:
         lines += [f"## {heading}", ""]
-    
-        entries = [x for x in candidates if x["classification"] == classification and x.get("review_decision") not in ("hold", "reject", "approve")]
-   
-    for x in entries[:150]:
-            lines += [f"- **{x['date_raw']} — {x['title_raw']}**", f"  - Source: {x['source']}", f"  - Event: {x['source_url']}"]
-            if x.get("possible_existing_title"):
-                lines.append(f"  - Possible match: {x['possible_existing_title']} (score {x['possible_existing_match']})")
-            if x.get("venue_raw"):
-                lines.append(f"  - Venue: {x['venue_raw']}")
-            if x.get("time_raw"):
-                lines.append(f"  - Time: {x['time_raw']}")
-            if classification == groups[0][1]:
-                lines.append("  - **Location not yet verified; do not publish without checking the source.**")
-        if not entries:
-            lines.append("- None.")
-        lines.append("")
-        
-    for heading, classification in groups:
-        lines += [f"## {heading}", ""]
 
         entries = [
             x for x in candidates
