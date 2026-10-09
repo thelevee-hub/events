@@ -26,7 +26,7 @@ SOURCES = [
     {"name": "Experience Mount Vernon", "url": "https://www.experiencemv.org/events"},
     {"name": "Visit Knox County", "url": "https://visitknoxohio.org/events"},
     {"name": "City of Mount Vernon", "url": "https://www.mtvernonoh.gov/calendar.aspx"},
-    {"name": "Public Library", "url": "https://www.knox.net/events.html"},
+    {"name": "Public Library", "url": "https://www.knox.net/calendar.html"},
     {"name": "MVNU", "url": "https://mvnu.edu/cmcal-calendar/calendar-new/"},
     {"name": "Mount Vernon City Schools", "url": "https://www.mt-vernon.k12.oh.us/our-district/district-calendar"},
     {"name": "The Woodward Opera House", "url": "https://www.thewoodward.org/"},
