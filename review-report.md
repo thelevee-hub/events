@@ -1,19 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-09 10:06 UTC
+Generated: 2026-10-11 10:04 UTC
 
 - Total candidates: **76**
-- New leads requiring verification: **61**
+- New leads requiring verification: **62**
 - Possible changes: **1**
-- Likely duplicates: **14**
+- Likely duplicates: **13**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-10 — Family Nature Quest Bats At The Bfec**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/family-nature-quest-bats-at-the-bfec-12110
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-12 — Yoga In The Garden Vinyasa With Jamee**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/yoga-in-the-garden-vinyasa-with-jamee-10-12-2026-12135
@@ -35,6 +31,10 @@ Generated: 2026-10-09 10:06 UTC
 - **2026-10-13 — Ribbon Cutting At Heart Of Ohio Wellness Center**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-at-heart-of-ohio-wellness-center-12133
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-14 — Breast Health Awareness Event**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/breast-health-awareness-event-12153
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-14 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -59,6 +59,10 @@ Generated: 2026-10-09 10:06 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-15 — Reiki Mindfulness And A Peaceful Walk With Sarah Spangler**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/reiki-mindfulness-and-a-peaceful-walk-with-sarah-spangler-10-15-2026-12017
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-16 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -370,10 +374,6 @@ Generated: 2026-10-09 10:06 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-10-10 — Mount Vernon Farmers Market**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11951
-  - Possible match: Mount Vernon Farmers Market (score 1.0)
 - **2026-10-11 — Johnny Appleseed Fall Festival**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/johnny-appleseed-fall-festival-12139
@@ -449,12 +449,7 @@ Generated: 2026-10-09 10:06 UTC
 
 ## Held events — awaiting further review
 
-- **2026-10-12 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Candidate ID: `4207ab017e4044`
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-
+- None.
 
 ## Source errors
 
