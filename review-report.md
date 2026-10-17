@@ -1,41 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-15 10:18 UTC
+Generated: 2026-10-17 10:11 UTC
 
-- Total candidates: **71**
-- New leads requiring verification: **58**
+- Total candidates: **67**
+- New leads requiring verification: **56**
 - Possible changes: **0**
-- Likely duplicates: **13**
+- Likely duplicates: **11**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-15 — All Write! Community-Led Writing Workshop**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-15 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-15 — Reiki Mindfulness And A Peaceful Walk With Sarah Spangler**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/reiki-mindfulness-and-a-peaceful-walk-with-sarah-spangler-10-15-2026-12017
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-16 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-16 — Ribbon Cutting For The Rock Bottom Bar**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-for-the-rock-bottom-bar-12158
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-17 — Acrylic Painting Workshop**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/acrylic-painting-workshop-10-17-2026-12116
@@ -60,6 +34,10 @@ Generated: 2026-10-15 10:18 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-19 — Nutrition Hot Topics With Connections Fitness 3Rd Monday Of The Month**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-monday-of-the-month-10-19-2026-11800
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-19 — Yoga In The Garden Vinyasa With Jamee**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/yoga-in-the-garden-vinyasa-with-jamee-10-19-2026-12136
@@ -70,11 +48,19 @@ Generated: 2026-10-15 10:18 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-20 — Safety Council Meeting**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/safety-council-meeting-10-20-2026-11688
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-21 — Nutrition Hot Topics With Connections Fitness 3Rd Wednesday Of The Month**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-wednesday-of-the-month-10-21-2026-11653
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-22 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -351,16 +337,6 @@ Generated: 2026-10-15 10:18 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-10-15 — Knox County Conversation- Ohio Food & Farms**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Knox County Conversations: Ohio Food & Farms (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 12:00 PM
-- **2026-10-16 — Fall Into Fall The Woodward Hometown Series**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/fall-into-fall-the-woodward-hometown-series-12146
-  - Possible match: Fall into Fun: The Woodward Hometown Series (score 1.0)
 - **2026-10-17 — Mount Vernon Farmers Market**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11952
