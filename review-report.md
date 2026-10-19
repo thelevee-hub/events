@@ -1,33 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-17 10:11 UTC
+Generated: 2026-10-19 10:22 UTC
 
-- Total candidates: **67**
-- New leads requiring verification: **56**
+- Total candidates: **66**
+- New leads requiring verification: **55**
 - Possible changes: **0**
 - Likely duplicates: **11**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-17 — Acrylic Painting Workshop**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/acrylic-painting-workshop-10-17-2026-12116
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-17 — Fall Harvest Festival At The Bfec**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/fall-harvest-festival-at-the-bfec-12104
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-17 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-17 — Princess Party**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/princess-party-12157
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-19 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -62,6 +44,14 @@ Generated: 2026-10-17 10:11 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-wednesday-of-the-month-10-21-2026-11653
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-21 — Parkinson S Support Group At Connections Fitness**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/parkinson-s-support-group-at-connections-fitness-10-21-2026-11780
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-22 — Doc Talk Back In Action Understanding Treating Back Pain**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/doc-talk-back-in-action-understanding-treating-back-pain-12154
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-22 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -73,6 +63,10 @@ Generated: 2026-10-17 10:11 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-24 — Family Nature Quest Unbe Leaf Able Colors**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/family-nature-quest-unbe-leaf-able-colors-12111
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-24 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -337,14 +331,14 @@ Generated: 2026-10-17 10:11 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-10-17 — Mount Vernon Farmers Market**
+- **2026-10-22 — Oak Street Foundation Fundraising Concert**
   - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11952
+  - Event: https://business.knoxchamber.com/events/details/oak-street-foundation-fundraising-concert-12147
+  - Possible match: Oak Street Foundation Fundraising Concert (score 1.0)
+- **2026-10-24 — Mount Vernon Farmers Market**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11953
   - Possible match: Mount Vernon Farmers Market (score 1.0)
-- **2026-10-18 — Magic Commander Open Play**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-10-18-2026-11056
-  - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-10-26 — Nonfiction Book Discussion - All the Living and the Dead**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -368,13 +362,13 @@ Generated: 2026-10-17 10:11 UTC
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
 - **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
 - **2026-11-18 — Movie Night at the Library- Megan Leavey**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
