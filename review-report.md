@@ -1,39 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-19 10:22 UTC
+Generated: 2026-10-21 10:20 UTC
 
-- Total candidates: **66**
-- New leads requiring verification: **55**
+- Total candidates: **64**
+- New leads requiring verification: **52**
 - Possible changes: **0**
-- Likely duplicates: **11**
+- Likely duplicates: **12**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-19 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-19 — Nutrition Hot Topics With Connections Fitness 3Rd Monday Of The Month**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-monday-of-the-month-10-19-2026-11800
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-19 — Yoga In The Garden Vinyasa With Jamee**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/yoga-in-the-garden-vinyasa-with-jamee-10-19-2026-12136
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-20 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-20 — Safety Council Meeting**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/safety-council-meeting-10-20-2026-11688
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -73,6 +49,14 @@ Generated: 2026-10-19 10:22 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-24 — Owl Creek Conservancy Fall Visit**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/owl-creek-conservancy-fall-visit-12152
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-24 — Ribbon Cutting Grand Opening For Lashley Training Center Danville**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-grand-opening-for-lashley-training-center-danville-12138
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-26 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -339,6 +323,10 @@ Generated: 2026-10-19 10:22 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11953
   - Possible match: Mount Vernon Farmers Market (score 1.0)
+- **2026-10-25 — Magic Commander Open Play**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-10-25-2026-11057
+  - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-10-26 — Nonfiction Book Discussion - All the Living and the Dead**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -362,13 +350,13 @@ Generated: 2026-10-19 10:22 UTC
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
 - **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
 - **2026-11-18 — Movie Night at the Library- Megan Leavey**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
