@@ -1,39 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-21 10:20 UTC
+Generated: 2026-10-23 10:19 UTC
 
-- Total candidates: **64**
-- New leads requiring verification: **52**
-- Possible changes: **0**
-- Likely duplicates: **12**
+- Total candidates: **62**
+- New leads requiring verification: **50**
+- Possible changes: **1**
+- Likely duplicates: **11**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-21 — Nutrition Hot Topics With Connections Fitness 3Rd Wednesday Of The Month**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-wednesday-of-the-month-10-21-2026-11653
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-21 — Parkinson S Support Group At Connections Fitness**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/parkinson-s-support-group-at-connections-fitness-10-21-2026-11780
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-22 — Doc Talk Back In Action Understanding Treating Back Pain**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/doc-talk-back-in-action-understanding-treating-back-pain-12154
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-22 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-23 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -64,17 +40,29 @@ Generated: 2026-10-21 10:20 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-26 — Yoga In The Garden Vinyasa With Jamee**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/yoga-in-the-garden-vinyasa-with-jamee-10-26-2026-12137
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-27 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-27 — Mount Vernon Lions Club Meeting**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/mount-vernon-lions-club-meeting-10-27-2026-8209
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-28 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-28 — Ribbon Cutting For Kch Center For Cancer Care**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-for-kch-center-for-cancer-care-12161
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-28 — Write Your Novel Community-Led Writing Workshop**
   - Source: Public Library Adults Calendar
@@ -311,14 +299,13 @@ Generated: 2026-10-21 10:20 UTC
 
 ## Possible existing events or changes
 
-- None.
+- **2026-10-26 — Trunk Or Treat**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/trunk-or-treat-11959
+  - Possible match: 4th Annual Trunk-or-Treat (score 0.858)
 
 ## Likely duplicates — do not republish
 
-- **2026-10-22 — Oak Street Foundation Fundraising Concert**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/oak-street-foundation-fundraising-concert-12147
-  - Possible match: Oak Street Foundation Fundraising Concert (score 1.0)
 - **2026-10-24 — Mount Vernon Farmers Market**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11953
