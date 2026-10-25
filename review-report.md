@@ -1,39 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-23 10:19 UTC
+Generated: 2026-10-25 10:13 UTC
 
-- Total candidates: **62**
-- New leads requiring verification: **50**
+- Total candidates: **60**
+- New leads requiring verification: **47**
 - Possible changes: **1**
-- Likely duplicates: **11**
+- Likely duplicates: **12**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-23 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-24 — Family Nature Quest Unbe Leaf Able Colors**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/family-nature-quest-unbe-leaf-able-colors-12111
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-24 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-24 — Owl Creek Conservancy Fall Visit**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/owl-creek-conservancy-fall-visit-12152
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-24 — Ribbon Cutting Grand Opening For Lashley Training Center Danville**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-grand-opening-for-lashley-training-center-danville-12138
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-26 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -60,6 +36,10 @@ Generated: 2026-10-23 10:19 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-28 — Halloween Open House**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/halloween-open-house-12151
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-28 — Ribbon Cutting For Kch Center For Cancer Care**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-for-kch-center-for-cancer-care-12161
@@ -75,6 +55,10 @@ Generated: 2026-10-23 10:19 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-29 — Reiki Mindfulness And A Peaceful Walk**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/reiki-mindfulness-and-a-peaceful-walk-10-29-2026-12112
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-30 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -306,10 +290,6 @@ Generated: 2026-10-23 10:19 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-10-24 — Mount Vernon Farmers Market**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/mount-vernon-farmers-market-11953
-  - Possible match: Mount Vernon Farmers Market (score 1.0)
 - **2026-10-25 — Magic Commander Open Play**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-10-25-2026-11057
@@ -320,12 +300,20 @@ Generated: 2026-10-23 10:19 UTC
   - Possible match: Nonfiction Book Discussion: All the Living and the Dead (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:30 PM
+- **2026-10-28 — Gabby Petito S Untold Story**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/gabby-petito-s-untold-story-12148
+  - Possible match: Change the Story: Gabby Petito’s Untold Story (score 0.901)
 - **2026-10-28 — Movie Night: House on Haunted Hill**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Movie Night at the Library: House on Haunted Hill (1958) (score 0.907)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:30 PM
+- **2026-10-28 — Radio Recall**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/radio-recall-12149
+  - Possible match: Radio Recall (score 1.0)
 - **2026-11-10 — Adult Open Craft Day**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
