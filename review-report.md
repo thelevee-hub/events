@@ -1,25 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-25 10:13 UTC
+Generated: 2026-10-27 10:25 UTC
 
-- Total candidates: **60**
-- New leads requiring verification: **47**
-- Possible changes: **1**
-- Likely duplicates: **12**
+- Total candidates: **58**
+- New leads requiring verification: **48**
+- Possible changes: **0**
+- Likely duplicates: **10**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-26 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-26 — Yoga In The Garden Vinyasa With Jamee**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/yoga-in-the-garden-vinyasa-with-jamee-10-26-2026-12137
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-27 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -50,11 +40,23 @@ Generated: 2026-10-25 10:13 UTC
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-29 — Boo Tastic Trick Or Treat**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/boo-tastic-trick-or-treat-12159
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-29 — Country Club Rehabilitation Campus Trick Or Treat**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/country-club-rehabilitation-campus-trick-or-treat-12134
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-29 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-10-29 — Gaslight Dinner Theater Benefit Show For Food For The Hungry**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/gaslight-dinner-theater-benefit-show-for-food-for-the-hungry-12124
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-29 — Reiki Mindfulness And A Peaceful Walk**
   - Source: Knox County Chamber
@@ -283,23 +285,10 @@ Generated: 2026-10-25 10:13 UTC
 
 ## Possible existing events or changes
 
-- **2026-10-26 — Trunk Or Treat**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/trunk-or-treat-11959
-  - Possible match: 4th Annual Trunk-or-Treat (score 0.858)
+- None.
 
 ## Likely duplicates — do not republish
 
-- **2026-10-25 — Magic Commander Open Play**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-10-25-2026-11057
-  - Possible match: Magic Commander Open Play (score 1.0)
-- **2026-10-26 — Nonfiction Book Discussion - All the Living and the Dead**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Nonfiction Book Discussion: All the Living and the Dead (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:30 PM
 - **2026-10-28 — Gabby Petito S Untold Story**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/gabby-petito-s-untold-story-12148
