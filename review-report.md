@@ -1,43 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-10-29 10:32 UTC
+Generated: 2026-10-31 10:23 UTC
 
-- Total candidates: **55**
-- New leads requiring verification: **46**
+- Total candidates: **54**
+- New leads requiring verification: **44**
 - Possible changes: **0**
-- Likely duplicates: **9**
+- Likely duplicates: **10**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-10-29 — Boo Tastic Trick Or Treat**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/boo-tastic-trick-or-treat-12159
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-29 — Country Club Rehabilitation Campus Trick Or Treat**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/country-club-rehabilitation-campus-trick-or-treat-12134
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-29 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-29 — Gaslight Dinner Theater Benefit Show For Food For The Hungry**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/gaslight-dinner-theater-benefit-show-for-food-for-the-hungry-12124
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-29 — Reiki Mindfulness And A Peaceful Walk**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/reiki-mindfulness-and-a-peaceful-walk-10-29-2026-12112
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-10-30 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-10-31 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -80,11 +52,23 @@ Generated: 2026-10-29 10:32 UTC
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-05 — Building A Business That Lasts Strategies Resources For Sustainable Success**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/building-a-business-that-lasts-strategies-resources-for-sustainable-success-12160
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-05 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-06 — Contrast A Group Exhibition**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/contrast-a-group-exhibition-12176
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-06 — Electronic Recycling**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/electronic-recycling-11-06-2026-9383
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-06 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -259,6 +243,12 @@ Generated: 2026-10-29 10:32 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-09 — Library System Closes Early**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: All PLMVKC branches
+  - Time: 4:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-16 — Write Your Novel Community-Led Writing Workshop**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -284,6 +274,10 @@ Generated: 2026-10-29 10:32 UTC
 - **2026-11-01 — Magic Commander Open Play**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-01-2026-11058
+  - Possible match: Magic Commander Open Play (score 1.0)
+- **2026-11-08 — Magic Commander Open Play**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-08-2026-11059
   - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-11-10 — Adult Open Craft Day**
   - Source: Public Library Adults Calendar
