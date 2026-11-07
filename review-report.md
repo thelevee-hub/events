@@ -1,45 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-05 10:47 UTC
+Generated: 2026-11-07 15:57 UTC
 
-- Total candidates: **53**
-- New leads requiring verification: **45**
+- Total candidates: **50**
+- New leads requiring verification: **42**
 - Possible changes: **0**
 - Likely duplicates: **8**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-05 — All Write! Community-Led Writing Workshop**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-05 — Building A Business That Lasts Strategies Resources For Sustainable Success**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/building-a-business-that-lasts-strategies-resources-for-sustainable-success-12160
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-05 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-06 — Contrast A Group Exhibition**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/contrast-a-group-exhibition-12176
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-06 — Electronic Recycling**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/electronic-recycling-11-06-2026-9383
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-06 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-07 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -66,6 +36,10 @@ Generated: 2026-11-05 10:47 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-10 — Mount Vernon Lions Club Meeting**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/mount-vernon-lions-club-meeting-11-10-2026-8348
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-10 — Music Bingo**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/music-bingo-12178
@@ -77,6 +51,14 @@ Generated: 2026-11-05 10:47 UTC
 - **2026-11-10 — The Station Break Spaghetti Dinner Fundraiser**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/the-station-break-spaghetti-dinner-fundraiser-12162
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-11 — Healthy Teaching Kitchen At Connections Fitness**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/healthy-teaching-kitchen-at-connections-fitness-11-11-2026-11831
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-11 — Knox Young Professionals Coffee Talk Series At Brickhouse Grind**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/knox-young-professionals-coffee-talk-series-at-brickhouse-grind-11859
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-12 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
