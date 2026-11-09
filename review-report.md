@@ -1,21 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-07 15:57 UTC
+Generated: 2026-11-09 20:16 UTC
 
-- Total candidates: **50**
+- Total candidates: **49**
 - New leads requiring verification: **42**
 - Possible changes: **0**
-- Likely duplicates: **8**
+- Likely duplicates: **7**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-07 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-09 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -51,6 +45,10 @@ Generated: 2026-11-07 15:57 UTC
 - **2026-11-10 — The Station Break Spaghetti Dinner Fundraiser**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/the-station-break-spaghetti-dinner-fundraiser-12162
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-11 — Doc Talk Step Into Better Health Wound Care Podiatry**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/doc-talk-step-into-better-health-wound-care-podiatry-12155
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-11 — Healthy Teaching Kitchen At Connections Fitness**
   - Source: Knox County Chamber
@@ -251,10 +249,6 @@ Generated: 2026-11-07 15:57 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-11-08 — Magic Commander Open Play**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-08-2026-11059
-  - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-11-10 — Adult Open Craft Day**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
