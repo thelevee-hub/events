@@ -1,45 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-11 17:32 UTC
+Generated: 2026-11-13 17:25 UTC
 
-- Total candidates: **45**
-- New leads requiring verification: **39**
+- Total candidates: **44**
+- New leads requiring verification: **36**
 - Possible changes: **0**
-- Likely duplicates: **6**
+- Likely duplicates: **8**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-11 — Doc Talk Step Into Better Health Wound Care Podiatry**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/doc-talk-step-into-better-health-wound-care-podiatry-12155
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-11 — Healthy Teaching Kitchen At Connections Fitness**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/healthy-teaching-kitchen-at-connections-fitness-11-11-2026-11831
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-11 — Knox Young Professionals Coffee Talk Series At Brickhouse Grind**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/knox-young-professionals-coffee-talk-series-at-brickhouse-grind-11859
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-11 — Step Into Better Health Wound Care And Podiatry Doc Talk**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/step-into-better-health-wound-care-and-podiatry-doc-talk-12163
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-12 — Alzheimer S Association Caregiver Support Group**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/alzheimer-s-association-caregiver-support-group-11-12-2026-11456
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-12 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-12 — Habitat Homecoming 2026 And Bourbon Raffle**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/habitat-homecoming-2026-and-bourbon-raffle-12101
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-13 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -66,17 +36,33 @@ Generated: 2026-11-11 17:32 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-16 — Nutrition Hot Topics With Connections Fitness 3Rd Monday Of The Month**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-monday-of-the-month-11-16-2026-11801
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-17 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-17 — Safety Council Meeting**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/safety-council-meeting-11-17-2026-11689
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-18 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-18 — Nutrition Hot Topics With Connections Fitness 3Rd Wednesday Of The Month**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-wednesday-of-the-month-11-18-2026-11654
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-18 — Parkinson S Support Group At Connections Fitness**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/parkinson-s-support-group-at-connections-fitness-11-18-2026-11781
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-18 — Write Your Novel Community-Led Writing Workshop**
   - Source: Public Library Adults Calendar
@@ -159,13 +145,13 @@ Generated: 2026-11-11 17:32 UTC
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -233,6 +219,10 @@ Generated: 2026-11-11 17:32 UTC
 
 ## Likely duplicates — do not republish
 
+- **2026-11-15 — Magic Commander Open Play**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-15-2026-11060
+  - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -245,6 +235,10 @@ Generated: 2026-11-11 17:32 UTC
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:00 PM
+- **2026-11-17 — Songfarmers Gathering**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/songfarmers-gathering-12181
+  - Possible match: SongFarmers Hometown Gathering (score 0.964)
 - **2026-11-18 — Movie Night at the Library- Megan Leavey**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
