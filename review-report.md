@@ -1,35 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-13 17:25 UTC
+Generated: 2026-11-15 16:41 UTC
 
-- Total candidates: **44**
-- New leads requiring verification: **36**
+- Total candidates: **42**
+- New leads requiring verification: **34**
 - Possible changes: **0**
 - Likely duplicates: **8**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-13 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-13 — The Woodward Opera House Welcomes Comedian Kathie Dice For Rotary Event Benefiting Amvets**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/the-woodward-opera-house-welcomes-comedian-kathie-dice-for-rotary-event-benefiting-amvets-12184
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-14 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-14 — Knoxview Farm Winery Pop Up Open With B One Bbq**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/knoxview-farm-winery-pop-up-open-with-b-one-bbq-12186
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-16 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -50,11 +30,19 @@ Generated: 2026-11-13 17:25 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/safety-council-meeting-11-17-2026-11689
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-18 — Black Friday Open House**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/black-friday-open-house-12167
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-18 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-18 — Holiday Pottery Painting At Founders Food Hall**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/holiday-pottery-painting-at-founders-food-hall-12183
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-18 — Nutrition Hot Topics With Connections Fitness 3Rd Wednesday Of The Month**
   - Source: Knox County Chamber
@@ -145,13 +133,13 @@ Generated: 2026-11-13 17:25 UTC
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -228,13 +216,13 @@ Generated: 2026-11-13 17:25 UTC
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
 - **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
 - **2026-11-17 — Songfarmers Gathering**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/songfarmers-gathering-12181
