@@ -1,25 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-15 16:41 UTC
+Generated: 2026-11-17 18:51 UTC
 
-- Total candidates: **42**
+- Total candidates: **41**
 - New leads requiring verification: **34**
 - Possible changes: **0**
-- Likely duplicates: **8**
+- Likely duplicates: **7**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-16 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-16 — Nutrition Hot Topics With Connections Fitness 3Rd Monday Of The Month**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-monday-of-the-month-11-16-2026-11801
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-17 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -75,6 +65,14 @@ Generated: 2026-11-15 16:41 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-19 — Open House Ribbon Cutting Fredricktown Lashley**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/open-house-ribbon-cutting-fredricktown-lashley-12166
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-19 — Ribbon Cutting For Lashley Training Center Fredericktown**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-for-lashley-training-center-fredericktown-12164
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-20 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -207,22 +205,18 @@ Generated: 2026-11-15 16:41 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-11-15 — Magic Commander Open Play**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-15-2026-11060
-  - Possible match: Magic Commander Open Play (score 1.0)
-- **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
 - **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 11:00 AM
+- **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
 - **2026-11-17 — Songfarmers Gathering**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/songfarmers-gathering-12181
