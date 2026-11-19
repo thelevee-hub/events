@@ -1,52 +1,18 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-17 18:51 UTC
+Generated: 2026-11-19 18:43 UTC
 
-- Total candidates: **41**
-- New leads requiring verification: **34**
-- Possible changes: **0**
-- Likely duplicates: **7**
+- Total candidates: **36**
+- New leads requiring verification: **31**
+- Possible changes: **2**
+- Likely duplicates: **3**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-17 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-17 — Safety Council Meeting**
+- **2026-11-19 — A Motown Christmas Featuring The Motortown All Stars**
   - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/safety-council-meeting-11-17-2026-11689
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-18 — Black Friday Open House**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/black-friday-open-house-12167
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-18 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-18 — Holiday Pottery Painting At Founders Food Hall**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/holiday-pottery-painting-at-founders-food-hall-12183
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-18 — Nutrition Hot Topics With Connections Fitness 3Rd Wednesday Of The Month**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/nutrition-hot-topics-with-connections-fitness-3rd-wednesday-of-the-month-11-18-2026-11654
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-18 — Parkinson S Support Group At Connections Fitness**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/parkinson-s-support-group-at-connections-fitness-11-18-2026-11781
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-18 — Write Your Novel Community-Led Writing Workshop**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Event: https://business.knoxchamber.com/events/details/a-motown-christmas-featuring-the-motortown-all-stars-12182
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-19 — Adult Craft and Conversation**
   - Source: Public Library Adults Calendar
@@ -66,6 +32,10 @@ Generated: 2026-11-17 18:51 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-19 — Mason Jar Christmas Fairy House Workshop**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/mason-jar-christmas-fairy-house-workshop-12188
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-19 — Open House Ribbon Cutting Fredricktown Lashley**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/open-house-ribbon-cutting-fredricktown-lashley-12166
@@ -80,11 +50,23 @@ Generated: 2026-11-17 18:51 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-20 — Ribbon Cutting Grand Opening For Moss Spivak Gallery**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-grand-opening-for-moss-spivak-gallery-12185
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-20 — The Patsy Cline Show 3 Shows Benefiting Food For The Hungry**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/the-patsy-cline-show-3-shows-benefiting-food-for-the-hungry-12125
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-21 — Knoxview Farm Winery Pop Up Open With The Naughty Lobstah**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/knoxview-farm-winery-pop-up-open-with-the-naughty-lobstah-12187
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-23 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -131,13 +113,13 @@ Generated: 2026-11-17 18:51 UTC
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -201,44 +183,31 @@ Generated: 2026-11-17 18:51 UTC
 
 ## Possible existing events or changes
 
-- None.
+- **2026-12-10 — Knox County Conversations December Edition**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Knox County Conversations: Ohio Serves (score 0.734)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 12:00 PM
+- **2026-12-21 — Nonfiction Book Discussion- Read Any Book**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Possible match: Nonfiction Book Discussion: Grunt by Mary Roach (score 0.744)
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:30 PM
 
 ## Likely duplicates — do not republish
 
-- **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
-- **2026-11-17 — Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Adult Holiday Craft: Primitive Hanging Wooden Mitten Decor (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
-- **2026-11-17 — Songfarmers Gathering**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/songfarmers-gathering-12181
-  - Possible match: SongFarmers Hometown Gathering (score 0.964)
-- **2026-11-18 — Movie Night at the Library- Megan Leavey**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Movie Night: Megan Leavey (score 0.902)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:30 PM
-- **2026-11-18 — Sewing with Lisa**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Sewing with Lisa (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 10:00 AM
 - **2026-11-19 — Knox County Conversations November Editon- Ohio Serves**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Possible match: Knox County Conversations: Ohio Serves (score 0.962)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 12:00 PM
+- **2026-11-22 — Magic Commander Open Play**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-22-2026-11061
+  - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-11-23 — Nonfiction Book Discussion- Grunt by Mary Roach**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
