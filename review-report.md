@@ -1,63 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-19 18:43 UTC
+Generated: 2026-11-21 17:00 UTC
 
-- Total candidates: **36**
-- New leads requiring verification: **31**
-- Possible changes: **2**
+- Total candidates: **30**
+- New leads requiring verification: **24**
+- Possible changes: **3**
 - Likely duplicates: **3**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-19 — A Motown Christmas Featuring The Motortown All Stars**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/a-motown-christmas-featuring-the-motortown-all-stars-12182
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-19 — Adult Craft and Conversation**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 3:00 PM
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-19 — All Write! Community-Led Writing Workshop**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-19 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-19 — Mason Jar Christmas Fairy House Workshop**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/mason-jar-christmas-fairy-house-workshop-12188
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-19 — Open House Ribbon Cutting Fredricktown Lashley**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/open-house-ribbon-cutting-fredricktown-lashley-12166
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-19 — Ribbon Cutting For Lashley Training Center Fredericktown**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-for-lashley-training-center-fredericktown-12164
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-20 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-20 — Ribbon Cutting Grand Opening For Moss Spivak Gallery**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/ribbon-cutting-grand-opening-for-moss-spivak-gallery-12185
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-20 — The Patsy Cline Show 3 Shows Benefiting Food For The Hungry**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/the-patsy-cline-show-3-shows-benefiting-food-for-the-hungry-12125
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -67,6 +19,10 @@ Generated: 2026-11-19 18:43 UTC
 - **2026-11-21 — Knoxview Farm Winery Pop Up Open With The Naughty Lobstah**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/knoxview-farm-winery-pop-up-open-with-the-naughty-lobstah-12187
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-23 — Bfec Twilight Trails Beaver Moon Night Hike**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/bfec-twilight-trails-beaver-moon-night-hike-12195
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-23 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -80,6 +36,10 @@ Generated: 2026-11-19 18:43 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-24 — Mount Vernon Lions Club Meeting**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/mount-vernon-lions-club-meeting-11-24-2026-8210
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-25 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -90,6 +50,10 @@ Generated: 2026-11-19 18:43 UTC
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Time: 4:00 PM
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-26 — Turkey Trot**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/turkey-trot-12126
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-27 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -183,6 +147,10 @@ Generated: 2026-11-19 18:43 UTC
 
 ## Possible existing events or changes
 
+- **2026-11-22 — 58Th Annual Performance Of George Frideric Handel S Messiah**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/58th-annual-performance-of-george-frideric-handel-s-messiah-12169
+  - Possible match: 58th Annual Handel’s Messiah (score 0.784)
 - **2026-12-10 — Knox County Conversations December Edition**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -198,12 +166,6 @@ Generated: 2026-11-19 18:43 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-11-19 — Knox County Conversations November Editon- Ohio Serves**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Knox County Conversations: Ohio Serves (score 0.962)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 12:00 PM
 - **2026-11-22 — Magic Commander Open Play**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-22-2026-11061
@@ -214,6 +176,10 @@ Generated: 2026-11-19 18:43 UTC
   - Possible match: Nonfiction Book Discussion: Grunt by Mary Roach (score 1.0)
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 6:30 PM
+- **2026-11-25 — Nellie Open Mic Night**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/nellie-open-mic-night-12180
+  - Possible match: Nellie’s Open Mic Night (score 0.955)
 
 ## Held events — awaiting further review
 
