@@ -1,25 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-21 17:00 UTC
+Generated: 2026-11-23 21:48 UTC
 
-- Total candidates: **30**
+- Total candidates: **31**
 - New leads requiring verification: **24**
-- Possible changes: **3**
-- Likely duplicates: **3**
+- Possible changes: **2**
+- Likely duplicates: **5**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-21 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-21 — Knoxview Farm Winery Pop Up Open With The Naughty Lobstah**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/knoxview-farm-winery-pop-up-open-with-the-naughty-lobstah-12187
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-23 — Bfec Twilight Trails Beaver Moon Night Hike**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/bfec-twilight-trails-beaver-moon-night-hike-12195
@@ -29,6 +19,10 @@ Generated: 2026-11-21 17:00 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-11-23 — Season Of Giving Children S Clothing And Toy Drive**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/season-of-giving-children-s-clothing-and-toy-drive-12198
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-24 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -73,17 +67,23 @@ Generated: 2026-11-21 17:00 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
-- **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
+- **2026-11-30 — Spectrum VoIP discovery**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Venue: Microsoft Teams Meeting
+  - Time: 9:55 AM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
   - Time: 11:00 AM
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
+  - Source: Public Library Adults Calendar
+  - Event: https://www.knox.net/calendar.html
+  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -147,10 +147,6 @@ Generated: 2026-11-21 17:00 UTC
 
 ## Possible existing events or changes
 
-- **2026-11-22 — 58Th Annual Performance Of George Frideric Handel S Messiah**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/58th-annual-performance-of-george-frideric-handel-s-messiah-12169
-  - Possible match: 58th Annual Handel’s Messiah (score 0.784)
 - **2026-12-10 — Knox County Conversations December Edition**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -166,10 +162,6 @@ Generated: 2026-11-21 17:00 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-11-22 — Magic Commander Open Play**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-22-2026-11061
-  - Possible match: Magic Commander Open Play (score 1.0)
 - **2026-11-23 — Nonfiction Book Discussion- Grunt by Mary Roach**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -180,6 +172,18 @@ Generated: 2026-11-21 17:00 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/nellie-open-mic-night-12180
   - Possible match: Nellie’s Open Mic Night (score 0.955)
+- **2026-11-27 — White Christmas The Musical**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/white-christmas-the-musical-12179
+  - Possible match: White Christmas: The Musical (score 1.0)
+- **2026-11-28 — Shop Small Saturday**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/shop-small-saturday-12173
+  - Possible match: Shop Small Saturday (score 1.0)
+- **2026-11-29 — Magic Commander Open Play**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-29-2026-11062
+  - Possible match: Magic Commander Open Play (score 1.0)
 
 ## Held events — awaiting further review
 
