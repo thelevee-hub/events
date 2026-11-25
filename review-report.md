@@ -1,39 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-23 21:48 UTC
+Generated: 2026-11-25 19:39 UTC
 
-- Total candidates: **31**
-- New leads requiring verification: **24**
+- Total candidates: **27**
+- New leads requiring verification: **20**
 - Possible changes: **2**
 - Likely duplicates: **5**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-23 — Bfec Twilight Trails Beaver Moon Night Hike**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/bfec-twilight-trails-beaver-moon-night-hike-12195
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-23 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-23 — Season Of Giving Children S Clothing And Toy Drive**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/season-of-giving-children-s-clothing-and-toy-drive-12198
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-24 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-24 — Mount Vernon Lions Club Meeting**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/mount-vernon-lions-club-meeting-11-24-2026-8210
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-25 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -77,13 +53,13 @@ Generated: 2026-11-23 21:48 UTC
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 11:00 AM
+  - Time: 6:00 PM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Adult Craft: Bow Making and Gift Wrapping**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:00 PM
+  - Time: 11:00 AM
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-01 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
@@ -96,6 +72,10 @@ Generated: 2026-11-23 21:48 UTC
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-02 — Nutrition Basics With Connections Fitness 1St Wednesday Of The Month**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/nutrition-basics-with-connections-fitness-1st-wednesday-of-the-month-12-02-2026-11643
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-02 — Write Your Novel Community-Led Writing Workshop**
   - Source: Public Library Adults Calendar
@@ -162,12 +142,6 @@ Generated: 2026-11-23 21:48 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-11-23 — Nonfiction Book Discussion- Grunt by Mary Roach**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Possible match: Nonfiction Book Discussion: Grunt by Mary Roach (score 1.0)
-  - Venue: Public Library of Mount Vernon & Knox County, 201 N Mulberry St, Mt Vernon, OH 43050, USA
-  - Time: 6:30 PM
 - **2026-11-25 — Nellie Open Mic Night**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/nellie-open-mic-night-12180
@@ -184,6 +158,10 @@ Generated: 2026-11-23 21:48 UTC
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/magic-commander-open-play-11-29-2026-11062
   - Possible match: Magic Commander Open Play (score 1.0)
+- **2026-11-30 — Lighting Of Public Square**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/lighting-of-public-square-12172
+  - Possible match: Lighting of Public Square (score 1.0)
 
 ## Held events — awaiting further review
 
