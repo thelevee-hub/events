@@ -1,30 +1,15 @@
 # The Levee Event Review — Phase 2.2
 
-Generated: 2026-11-25 19:39 UTC
+Generated: 2026-11-27 19:14 UTC
 
-- Total candidates: **27**
-- New leads requiring verification: **20**
+- Total candidates: **25**
+- New leads requiring verification: **19**
 - Possible changes: **2**
-- Likely duplicates: **5**
+- Likely duplicates: **4**
 - Source errors: **1**
 
 ## New candidates — verify location and details
 
-- **2026-11-25 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Venue: All PLMVKC Branches
-  - Time: All day
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-25 — Library System to Close Early at 4 p.m.**
-  - Source: Public Library Adults Calendar
-  - Event: https://www.knox.net/calendar.html
-  - Time: 4:00 PM
-  - **Location not yet verified; do not publish without checking the source.**
-- **2026-11-26 — Turkey Trot**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/turkey-trot-12126
-  - **Location not yet verified; do not publish without checking the source.**
 - **2026-11-27 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
@@ -95,11 +80,19 @@ Generated: 2026-11-25 19:39 UTC
   - Venue: All PLMVKC Branches
   - Time: All day
   - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-04 — Electronic Recycling**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/electronic-recycling-12-04-2026-9384
+  - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-04 — Food for the Hungry Drive Begins Today at all PLMVKC Branches**
   - Source: Public Library Adults Calendar
   - Event: https://www.knox.net/calendar.html
   - Venue: All PLMVKC Branches
   - Time: All day
+  - **Location not yet verified; do not publish without checking the source.**
+- **2026-12-05 — Extreme Giants**
+  - Source: Knox County Chamber
+  - Event: https://business.knoxchamber.com/events/details/extreme-giants-12196
   - **Location not yet verified; do not publish without checking the source.**
 - **2026-12-09 — Library System Closes Early**
   - Source: Public Library Adults Calendar
@@ -142,10 +135,6 @@ Generated: 2026-11-25 19:39 UTC
 
 ## Likely duplicates — do not republish
 
-- **2026-11-25 — Nellie Open Mic Night**
-  - Source: Knox County Chamber
-  - Event: https://business.knoxchamber.com/events/details/nellie-open-mic-night-12180
-  - Possible match: Nellie’s Open Mic Night (score 0.955)
 - **2026-11-27 — White Christmas The Musical**
   - Source: Knox County Chamber
   - Event: https://business.knoxchamber.com/events/details/white-christmas-the-musical-12179
